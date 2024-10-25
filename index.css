@@ -1,0 +1,190 @@
+* {
+    margin: 0 auto;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'inter';
+}
+
+p {
+    font-size: 14px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 30px;
+    width: 40%;
+    padding: 10px;
+}
+
+.about-container {
+    text-align: center;
+    color: white;
+    line-height: 2.0rem;
+    padding: 20px 70px;
+
+    
+}
+
+h5 {
+    color: hsl(75, 94%, 57%);
+    padding-bottom: 10px;
+}
+
+.button-container {
+    margin-left: 70px;
+   
+    
+}
+
+#btnA {
+    display: block;
+    background-color:  hsl(0, 0%, 20%);
+    height: 20px;
+    text-align: center;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    align-items: center;
+    margin-right: 60px;
+    border-radius: 10px;
+    margin-bottom:20px;
+    text-decoration: none;
+ 
+}
+
+#btnB {
+    display: block;
+    background-color:  hsl(0, 0%, 20%);
+    height: 20px;
+    text-align: center;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    align-items: center;
+    margin-right: 60px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom:20px;
+    text-decoration: none;
+}
+
+#btnC {
+    display: block;
+    background-color:  hsl(0, 0%, 20%);
+    height: 20px;
+    text-align: center;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    align-items: center;
+    margin-right: 60px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom:20px;
+    text-decoration: none;
+    
+}
+
+#btnD {
+    display: block;
+    background-color:  hsl(0, 0%, 20%);
+    height: 20px;
+    text-align: center;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    align-items: center;
+    margin-right: 60px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom:20px;
+    text-decoration: none;
+} 
+
+#btnE {
+    display: block;
+    background-color:  hsl(0, 0%, 20%);
+    height: 20px;
+    text-align: center;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    align-items: center;
+    margin-right: 60px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom:50px;
+    text-decoration: none;
+} 
+
+#btnA:hover,#btnB:hover, #btnC:hover, #btnD:hover, #btnE:hover {
+    color: aliceblue;
+    background-color:  rgb(6, 7, 10);
+}
+
+@media (max-width:400px) {
+  body  {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 0 auto;
+    }
+    .container {
+        width: 80%;
+        height: 100%;
+        margin-left: 30px;
+        margin-top: 10%;
+    }
+    .button-container{
+        width: fit-content;
+        margin-left: 50px;
+        padding-right: 30px;
+    }
+    #btnA {
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    #btnB {
+        width: 250px;
+        margin-left: 10px;
+       
+    }
+
+    #btnC {
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    #btnD {
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    #btnE {
+        width: 250px;
+        margin-left: 10px;
+    }
+}
+
+

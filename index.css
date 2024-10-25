@@ -154,38 +154,38 @@ h5 {
     .container {
         width: 85%;
         height: 100%;
-        margin-left: 10px;
+        margin-left: 5px;
         margin-top: 10%;
     }
     .button-container{
         width: fit-content;
-        margin-left: 50px;
+        margin-left: 60px;
         padding-right: 30px;
     }
     #btnA {
         width: 250px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
     #btnB {
         width: 250px;
-        margin-left: 10px;
+        margin-left: 0px;
        
     }
 
     #btnC {
         width: 250px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
     #btnD {
         width: 250px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
     #btnE {
         width: 250px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 }
 
